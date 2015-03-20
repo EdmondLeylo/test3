@@ -14,6 +14,7 @@
     <RootNamespace>webtest1</RootNamespace>
     <AssemblyName>webtest1</AssemblyName>
     <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <deploymanagedruntimeversion>v4.0</deploymanagedruntimeversion>
     <UseIISExpress>true</UseIISExpress>
     <IISExpressSSLPort />
     <IISExpressAnonymousAuthentication />
