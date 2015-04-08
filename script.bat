@@ -14,7 +14,7 @@ for /f "delims=:" %%v in ('findstr /n %1 file.txt') do set ln=%%v
 for /f "delims=" %%l in (%inputfile%) do (
     set /a line+=1
     if !line!==%ln% (
-        echo WORDS YOU REPLACE IT WITH>>%tempfile%
+        echo %2>>%tempfile%
     ) else (
         echo %%l>>%tempfile%
     )
