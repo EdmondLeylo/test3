@@ -7,7 +7,7 @@
  defaultValue="http://localhost:61938/Service1.svc" tags="">
     <parameterEntry 
 kind="XmlFile" 
-scope="\\web.config$" 
+scope="\\web\.config$" 
 match="//configuration/value/text()" />
   </parameter>
 
