@@ -8,7 +8,7 @@
     <parameterEntry 
 kind="XmlFile" 
 scope="\\web.config$" 
-match="//configuration/system.web/membership/providers/value()" />
+match="//configuration/system.web/membership/providers/value/text()" />
   </parameter>
 
 </parameters>
