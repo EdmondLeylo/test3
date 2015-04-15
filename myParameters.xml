@@ -2,13 +2,13 @@
 <parameters>
   <setParameter name="IIS Web Application Name" value="Default Web Site/webtest1_deploy" />
   <setParameter name="DefaultConnection-Web.config Connection String" value="Data Source=(LocalDb)\v11.0;AttachDbFilename=|DataDirectory|\aspnet-webtest1-20150320084554.mdf;Initial Catalog=aspnet-webtest1-20150320084554;Integrated Security=True" />
-
-  <parameter name="test" description="description" 
-       defaultValue="yooooooo">
-    <parameterEntry
-	 kind="XmlFile"
-	 scope="\\web.config$" 
-	 match="//configuration/system.web/membership/providers/text()" />
+   
+  <parameter name="test" description="call"
+ defaultValue="http://localhost:61938/Service1.svc" tags="">
+    <parameterEntry 
+kind="XmlFile" 
+scope="\\web.config$" 
+match="//configuration/system.web/membership/providers/value()" />
   </parameter>
 
 </parameters>
